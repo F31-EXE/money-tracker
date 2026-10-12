@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Moneta",
+    "slug": "moneta",
+    "scheme": "moneta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0B0B10",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moneta.tracker"
+    },
+    "android": {
+      "package": "com.moneta.tracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0B10",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
